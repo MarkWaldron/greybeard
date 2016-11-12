@@ -42,6 +42,7 @@ program
   .option('--even', 'Skip odd number days')
   .option('--odd', 'Skip even number days')
   .option('--days [number]', 'Specify number of days to make commits for')
+  .option('--powermode', 'Doubles the number of commits per day!')
   .description('Runs Greybeard script for 400 days on set language (default JavaScript)')
   .action((language, options) => {
     let extension = extension_picker(language.toLowerCase());

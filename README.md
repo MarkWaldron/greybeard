@@ -52,6 +52,9 @@ If your language is not listed, use the file extension you'd like:
 
     $ greybeard run javascript --odd
 
+  Powermode - Doubles the number of commits per day
+
+    $ greybeard run javascript --powermode
 
 ## See the results
 
