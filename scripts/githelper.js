@@ -53,7 +53,7 @@ const again_and_again = function (extension, options) {
 };
 
 const initializeProgressbar = function (length) {
-  bar = new ProgressBar('Rocking on!! [:bar] :percent :etas', {
+  bar = new ProgressBar('Rewriting History [:bar] :percent :etas', {
     complete: '='.green,
     incomplete: ' ',
     width: 50,
